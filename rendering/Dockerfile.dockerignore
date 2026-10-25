@@ -1,0 +1,12 @@
+*
+!rendering/
+!rendering/Dockerfile
+!rendering/requirements.txt
+!rendering/package.json
+!rendering/package-lock.json
+!rendering/system-packages.json
+!rendering/runner.py
+!rendering/validate.py
+!backend/
+!backend/rolebot/
+!backend/rolebot/creation_contract.py

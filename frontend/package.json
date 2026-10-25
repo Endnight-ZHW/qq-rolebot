@@ -1,0 +1,26 @@
+{
+  "name": "qq-rolebot-console",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:ui": "node tests/console.mjs",
+    "test:public": "node tests/console.mjs --public"
+  },
+  "dependencies": {
+    "echarts": "6.1.0",
+    "vue": "3.5.44",
+    "vue-router": "4.6.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@vitejs/plugin-vue": "6.0.10",
+    "prettier": "3.9.10",
+    "typescript": "5.9.3",
+    "vite": "8.3.4",
+    "vue-tsc": "3.3.13"
+  }
+}
